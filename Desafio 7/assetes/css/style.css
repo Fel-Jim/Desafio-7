@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .principal{
+    display: flex;
+  }
+
+.leftbar-status{
+    flex-basis: 50vh;
+    
+}
+.topbar-usser{
+    display: flex;
+    border: solid 1px #BEC1BB;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    width: auto;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+.usser-status{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 8vw;
+    gap: 5vh;
+}
+.usser-img img{
+    border-radius: 50%;
+    border: solid 1px #828485;
+    width: 8vh;
+}
+.data-usser{
+    display: flex;
+    flex-direction: column;
+
+}
+.data-usser p{
+    color: #828485;
+    font-size: small;
+}
+.buttonsbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 7vw;
+    color: #828485;
+    font-size: 3vh;
+}
+.new-chat {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #BEC1BB;
+}
+.new-chat button {
+    width: 12vw;
+    height: 8vh;
+    background-color: #A491D2;
+    color: white;
+    font-size: medium;
+    border: none;
+    margin: 5vh;
+  }
+  .chat-usser{
+    display: flex;
+    flex-direction: column;
+  }
+  .window-usser{
+    display: flex;
+    align-items: center;
+    height: 16vh;
+    gap: 10px;
+    padding: 1rem;
+    border: 1px solid #BEC1BB;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .window-usser-info{
+    color: #444749;
+  }
+  .window-usser-info h3{
+    font-size: large;
+    padding: 0;
+  } 
+  .window-usser-img img{
+    width: 10vh;
+    border-radius: 50%;
+  }
+  .rigthbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    background-color: #E8EBE4;
+    width: 160vh;
+  }
+  .rigthbar img{
+  width: 25vw;
+}
+.rigthbar-info{
+    flex-direction: column;
+    text-align: center;
+    padding: 5vh;
+}
+.rigthbar-info h1{
+font-family: 'Open Sans', sans-serif;;
+
+}
+.rigthbar-info p{
+  font-family: 'Open Sans', sans-serif;;
+    text-align: center;
+    width: 70vh;
+
+}
